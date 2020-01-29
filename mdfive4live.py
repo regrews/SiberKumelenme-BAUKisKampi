@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#hackthebox web challenges script
 import requests
 import hashlib
 
