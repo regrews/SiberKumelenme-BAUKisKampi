@@ -17,7 +17,7 @@ def postString(URL,PASSWORDLIST,COOKIES):
 		DATA={"password":x}
 		post_request=requests.post(URL,cookies=COOKIES,data=DATA)
 		print(post_request.status_code)
-		print("Traying : " + x)
+		print("Trying : " + x)
 		if ERR_STR not in post_request.text:
 			print(post_request.text)
 	return post_request.text
